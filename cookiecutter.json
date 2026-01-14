@@ -3,6 +3,5 @@
   "project_slug": "{{ cookiecutter.project_name | lower | replace(' ', '-') }}",
   "owner": "Daehee Kim",
   "organization": "OIST",
-  "description": "A short description of the project.",
-  "start_date": "2026-01-14"
+  "description": "A short description of the project."
 }
