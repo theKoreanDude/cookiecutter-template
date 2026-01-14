@@ -1,3 +1,7 @@
 {
-    "DEPRECATED": "Use of the `cookiecutter` command is deprecated. Please use `ccds` in place of `cookiecutter`. To continue using the deprecated template, use `cookiecutter ... -c v1`."
+  "project_name": "My Project",
+  "project_slug": "{{ cookiecutter.project_name | lower | replace(' ', '-') }}",
+  "owner": "Daehee Kim",
+  "organization": "OIST",
+  "start_date": "2026-01-14"
 }
